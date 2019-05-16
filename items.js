@@ -25,7 +25,7 @@ class Items {
 
     renderNavButtons() {
         const navButtons = document.getElementsByClassName("nav");
-        const navButtonIds = ["home_id", "programs_id", "parents_id", "contact_id", "blog_id"];
+        const navButtonIds = ["home_id", "programs_id", "parents_id", "contact_id"];
         for(let i = 0; i < navButtonIds.length; i++) {
             navButtons[i] // navButtonIds[] must have same order as nav bar
                 .addEventListener('click', this.scrollIntoView.bind(this, navButtonIds[i]));
