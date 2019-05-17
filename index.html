@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Eric Tu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" id="indexCSS_id" />
@@ -36,9 +38,14 @@
             <div class="bubble">
                 <h2>Welcome!</h2>
                 <p>
-                    I am a Junior computer science major at Rose-Hulman Institute of
-                    Technology. Growing up, I’ve always had an interest in building and designing including both
-                    software and hardware.
+                    I am a Junior Computer Science major. Growing up, I’ve always had an interest in building and
+                    designing both software and hardware.
+                </p>
+                <p>
+                    Although Rose has taught me a lot with regards to technical experience, the most important skill
+                    that I developed was the ability to learn and self-adapt. Computer Science has exploded during the
+                    past few decades, and I am excited to utilize my new-found skills to tackle real world problems and
+                    to learn and grow.
                 </p>
                 <p>
                     Thank you for taking the time to get to know me!
@@ -53,15 +60,32 @@
             <h1 class='programs'>About</h1>
         </div>
         <div class="section-column">
-            <div class="programs bubble">
-                <h2>Education</h2>
-            </div>
-            <div class="programs bubble">
-                <h2>Resume</h2>
-                <button>Download</button>
+            <div class="section-row">
+                <div class="programs bubble">
+                    <h2>Education</h2>
+                    <h3>Bachelor’s in Science
+                    </h3>
+                    <h3>
+                        Computer Science Major
+                    </h3>
+                    <h3>
+                        May, 2021 Graduation Year
+                    </h3>
+                    <h3>
+                        <a href="downloads/Resume Eric Tu.pdf" target="_blank">Resume</a>
+                    </h3>
+                </div>
+                <img src="images/RoseSeal.png" alt="">
             </div>
             <div class="programs bubble">
                 <h2>Background</h2>
+                <p>
+                    As a first generation, nineteen-year-old Chinese American, I was raised in Canton, Ohio. In my
+                    family, I have two loving parents, a younger sister, Angela, and a black and white shih tzhu dog,
+                    Bruce. My mother is a web developer for the local government and my father is a Materials Manager at
+                    Koch Knight LLC. During my time at Rose-Hulman, I have been provided with several opportunities to
+                    learn and grow as an individual.
+                </p>
             </div>
         </div>
     </main>
@@ -70,18 +94,170 @@
         <div class="section-row">
             <h1 class="parents">Projects</h1>
         </div>
+        <h3>
+            Below, is a list of all of my work made both inside and outside of the classroom.
+        </h3>
         <div class="section-row">
             <img id="pic1_id" src="images/pic1.png" alt="">
             <div class="parents bubble">
                 <h2>Bright Minds Web Application</h2>
                 <p>
-                    One substantial project that I worked on during the summer of 2018 was the Bright Minds Learning Academy website application. Bright Minds Learning Academy is a private tutoring company whose owner asked me to design a modern looking website. The final product was a website application that uses a Cascading Style Sheet front end with a JavaScript back end. Additionally, the application uses a Firebase database to store and track email subscriptions, as seen in the purple “Newsletter” page.
+                    Bright Minds Learning Academy is a private tutoring company whose owner asked me to design a modern
+                    website. The final product was a website application that uses a Cascading Style Sheet and HTML
+                    front end with a JavaScript back end. Additionally, the application uses a Firebase database to
+                    store and track email subscriptions, as seen in the purple “Newsletter” page. When signed in as the
+                    owner using Google Authentication, the owner can track grades, progress reports, and blog posts.
                 </p>
                 <p>
-                    One of the challenges I experienced while gathering requirements was that the client wasn’t a native English speaker and struggled to explain some of the features that she desired. To overcome this obstacle, I considered alternative forms of nonverbal communication. To understand my client’s needs, I prepared different front-end prototypes on a white board, where the client would be able to choose the design that she desired, even suggesting her own by drawing them on the board. Overall, gathering and detailing product requirements has improved my overall communication skills. Additionally, I was able to improve my coding and communication skills in an industrial environment.
+                    One of the challenges I experienced while gathering product requirements was that the client wasn’t
+                    a native English speaker and struggled to explain some of the features that she desired. Thus, to
+                    understand my client’s needs, I prepared different front-end prototypes on a white board, where the
+                    client would be able to choose the design that she desired, even suggesting her own by drawing them
+                    on the board. Overall, being forced to gather product requirements in a partially nonverbal setting
+                    has improved my overall communication skills, a quality that’s especially important in Product
+                    Management.
                 </p>
+                <p>
+                    Another challenge I faced was having to serve as multiple roles in a Software Development team in
+                    quick succession. For example, one moment, I was writing a function that retrieves information from
+                    the database and the next moment, I was writing unit tests to test that function. Overall, since
+                    this was my first major outside-of-the-classroom project, the experience has cemented my foundation
+                    as a Software Engineer.
+                </p>
+                <ul>
+                    <h3>Relevant Links</h3>
+                    <li>
+                        <a href="www.brightmindsla.com" target="_blank">Website</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/iLoveDisco/bright-minds">Github Repo</a>
+                    </li>
+                </ul>
             </div>
         </div>
+        <div class="section-row">
+
+            <div class="parents bubble">
+                <h2>Slot Machine</h2>
+                <p>
+                    For my Mechatronics class, my partner and I designed and implemented a standard slot machine using
+                    two PIC18F4520 microcontrollers (each used to handle logical and mechanical systems), four Arduino
+                    H-Bridge motor drivers, two sets of IR sensors, and four stepper motors. The slot machine’s
+                    interface involves a single LED button next to a small slot that senses coin input. All outputs are
+                    projected onto three 3D-Printed slot wheels that spun in random locations. The project was one of
+                    the first electronic appliances I made: a foot-tall classic slot machine that took coin inputs and
+                    outputted winnings depending on the given reel.
+                </p>
+                <p>
+                    Coming from a computer science background, I had almost no hardware experience. Overcoming this
+                    challenge took hours of time spent in the laboratory learning electrical concepts, reading data
+                    sheets, and testing circuits on a trial and error basis. During this process, I utilized whatever
+                    resources I could find, including TA/Professor office hours, my roommate’s DC circuits textbook, and
+                    YouTube videos. Not only has the experience has given me designing, building, and testing experience
+                    with imbedded systems, but it has also improved my ability to self-learn, which involves asking good
+                    questions and utilizing learning tools, a skill that is viable in industry.
+                </p>
+                <p>
+                    Overall, the Slot Machine project has encouraged me to explore and interact with areas outside of my
+                    comfort zone.
+                </p>
+                <!-- <ul>
+                    <h3>Relevant Links</h3>
+                    <li>
+                        <a href="www.brightmindsla.com" target="_blank">Website</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/iLoveDisco/bright-minds">Github Repo</a>
+                    </li>
+                </ul> -->
+            </div>
+            <img id="pic2_id" src="images/pic2.jpeg" alt="">
+        </div>
+        <div class="section-row">
+            <img id="pic3_id" src="images/pic3.png" alt="">
+            <div class="parents bubble">
+                <h2>Food Compass</h2>
+                <p>
+                    For the Food Compass Challenge at the Indy Civic Challenge 2018, I worked with a team of three and
+                    developed a static web application using HTML and CSS for the front end, JavaScript for the back
+                    end, and Java for data scrubbing. The goal of the project was to provide a pertinent solution to the
+                    food insecurity problem that afflicts Marion County and the city of Indianapolis. The web
+                    application presents the user with a map of Marion County.
+                </p>
+                <p>
+                    The map is focused on Indianapolis, and features pins that correlate to various local and
+                    state-based agencies. These points are linked to various local, charities, churches, and established
+                    programs’ websites that can provide resources and assistance for those with food insecurity. The
+                    checkbox can filter irrelevant, open and accessible agencies to the user, while the pins themselves
+                    on the map provide a myriad of information, such as the name of the agency, its address, phone
+                    number, website URL, distance, and relevant information regarding procedures and requirements.
+                </p>
+                <p>
+                    Since this was my team’s first hackathon, some of us had initial feelings of self-doubt: that our
+                    lack of programming experience leaves us handicapped in creative potential. Although we were
+                    initially self-doubtful, we developed into a strongly functioning team where each member could
+                    incorporate their strengths in ways to finalize a usable product. This experience has taught me to
+                    find ways to utilize my unique skillset to have a large impact on the project. Additionally, the
+                    experience has strengthened my ability to work in a team, a skill that is pertinent to building
+                    relationships with coworkers.
+                </p>
+                <p>
+                    Optimistically, my team and I believed that we produced a product that may provide a viable way to
+                    aid the ailment of food insecurity in Indianapolis. At worst, we acquired a lot of experience, made
+                    some new friends, and seized the opportunity to show support for the Indianapolis community at
+                    large.
+                </p>
+                <ul>
+                    <h3>Relevant Links</h3>
+                    <li>
+                        <a href="https://github.com/iLoveDisco/food-compass" target="_blank">Github Repo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-row">
+            <img id="pic3_id" src="images/pic3.png" alt="">
+            <div class="parents bubble">
+                <h2>Food Compass</h2>
+                <p>
+                    For the Food Compass Challenge at the Indy Civic Challenge 2018, I worked with a team of three and
+                    developed a static web application using HTML and CSS for the front end, JavaScript for the back
+                    end, and Java for data scrubbing. The goal of the project was to provide a pertinent solution to the
+                    food insecurity problem that afflicts Marion County and the city of Indianapolis. The web
+                    application presents the user with a map of Marion County.
+                </p>
+                <p>
+                    The map is focused on Indianapolis, and features pins that correlate to various local and
+                    state-based agencies. These points are linked to various local, charities, churches, and established
+                    programs’ websites that can provide resources and assistance for those with food insecurity. The
+                    checkbox can filter irrelevant, open and accessible agencies to the user, while the pins themselves
+                    on the map provide a myriad of information, such as the name of the agency, its address, phone
+                    number, website URL, distance, and relevant information regarding procedures and requirements.
+                </p>
+                <p>
+                    Since this was my team’s first hackathon, some of us had initial feelings of self-doubt: that our
+                    lack of programming experience leaves us handicapped in creative potential. Although we were
+                    initially self-doubtful, we developed into a strongly functioning team where each member could
+                    incorporate their strengths in ways to finalize a usable product. This experience has taught me to
+                    find ways to utilize my unique skillset to have a large impact on the project. Additionally, the
+                    experience has strengthened my ability to work in a team, a skill that is pertinent to building
+                    relationships with coworkers.
+                </p>
+                <p>
+                    Optimistically, my team and I believed that we produced a product that may provide a viable way to
+                    aid the ailment of food insecurity in Indianapolis. At worst, we acquired a lot of experience, made
+                    some new friends, and seized the opportunity to show support for the Indianapolis community at
+                    large.
+                </p>
+                <ul>
+                    <h3>Relevant Links</h3>
+                    <li>
+                        <a href="https://github.com/iLoveDisco/food-compass" target="_blank">Github Repo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </main>
 
     <main id="contact_id" class="contact">
@@ -92,8 +268,8 @@
             <ul style="margin-right: 0vw; list-style-type: none;">
                 <li><i class="fas fa-phone ispecial"></i>1-330-437-7652</li>
                 <li><i class="fas fa-map-marker-alt ispecial"></i>
-                    CM 3376
-                    5500 Wabash Avenue
+                    CM 1291 <br>
+                    5500 Wabash Avenue <br>
                     ​Terre Haute, Indiana 47803</li>
                 <li><i class="far fa-envelope ispecial"></i>erictu222@gmail.com</li>
             </ul>
